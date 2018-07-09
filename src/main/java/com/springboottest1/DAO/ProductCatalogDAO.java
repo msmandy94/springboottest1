@@ -1,6 +1,6 @@
-package com.zivame.DAO;
+package com.springboottest1.DAO;
 
-import com.zivame.Entity.Product;
+import com.springboottest1.Entity.Product;
 
 import java.util.Collection;
 

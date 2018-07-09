@@ -1,7 +1,7 @@
-package com.zivame.Service;
+package com.springboottest1.Service;
 
-import com.zivame.DAO.ProductCatalogDAO;
-import com.zivame.Entity.Product;
+import com.springboottest1.DAO.ProductCatalogDAO;
+import com.springboottest1.Entity.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
@@ -15,11 +15,11 @@ public class ProductCatalogService {
     @Qualifier("mysql")
     private ProductCatalogDAO productCatalogDao;
 
-    public Collection<Product> getAllProducts(){
+    public Collection<Product> getAllProducts() {
         return this.productCatalogDao.getAllProducts();
     }
 
-    public Product getProductById(int id){
+    public Product getProductById(int id) {
         return this.productCatalogDao.getProductById(id);
     }
 
@@ -28,11 +28,11 @@ public class ProductCatalogService {
         this.productCatalogDao.removeProductById(id);
     }
 
-    public void updateProduct(Product product){
+    public void updateProduct(Product product) {
         this.productCatalogDao.updateProduct(product);
     }
 
-    public void insertProductToDb(Product product){
+    public void insertProductToDb(Product product) {
         this.productCatalogDao.insertProductToDb(product);
     }
 

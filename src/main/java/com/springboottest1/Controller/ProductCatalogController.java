@@ -1,12 +1,11 @@
-package com.zivame.Controller;
+package com.springboottest1.Controller;
 
-import com.zivame.Entity.Product;
-import com.zivame.Service.ProductCatalogService;
+import com.springboottest1.Entity.Product;
+import com.springboottest1.Service.ProductCatalogService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;

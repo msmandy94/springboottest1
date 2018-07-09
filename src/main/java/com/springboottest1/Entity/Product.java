@@ -1,4 +1,4 @@
-package com.zivame.Entity;
+package com.springboottest1.Entity;
 
 /**
  * Created by mandeepsingh on 4/14/18.

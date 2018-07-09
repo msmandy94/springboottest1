@@ -1,4 +1,4 @@
-package com.zivame;
+package com.springboottest1;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
